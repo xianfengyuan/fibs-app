@@ -9,7 +9,7 @@ on:
       - 'main'
 
 jobs:
-  build-test:
+  build-info-prompt:
     runs-on: ubuntu-latest
     steps:
       - run: echo "building and testing the app ..."
