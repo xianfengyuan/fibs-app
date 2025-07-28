@@ -1,0 +1,10 @@
+version: '3'
+services:
+  fibs:
+    build: .
+    ports:
+    - "8080:8000"
+    volumes:
+    - .:/app
+    env_file:
+      - ./.env
