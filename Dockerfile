@@ -13,6 +13,6 @@ RUN pip install --upgrade pip && \
 
 COPY . .
 
-EXPOSE 8080
+EXPOSE 8000
 
 CMD ["/bin/bash", "docker-entrypoint.sh"]
