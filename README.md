@@ -3,6 +3,12 @@ The following API calls are defined in the Fibonacci REST API service:
 - GET /ping
 - GET /fibs/<int:seq_no>
 
+Example responses:
+
+- <SERVER_ADDRESS>/ping => {"message":"pong"}
+- <SERVER_ADDRESS>/fibs/2 => 1
+- <SERVER_ADDRESS>/fibs/10 => 55
+
 To run the tests, follow the steps below:
 
 - setup virtual python env (python3 -mvenv .venv)
