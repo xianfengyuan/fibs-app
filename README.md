@@ -17,3 +17,7 @@ To run the tests, follow the steps below:
 - run the test suites (pytest tests/)
 - exit from virtual python env (deactivate)
 
+A docker-compose.yaml file is also provided to run the app with docker-compose, which can include
+ multiple interactive containers.
+
+A docker-compose.debug.yaml file is used to help debugging the Flask app in Visual Studio Code IDE.
