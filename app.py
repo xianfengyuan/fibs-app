@@ -1,7 +1,7 @@
 import os
 from flask import Flask
 from flask_smorest import Api  # or use 'from flask_restful import Api' if you use Flask-RESTful
-from resources import blp as FibsBluePrint
+from resources import fibs as FibsBluePrint
 
 from dotenv import load_dotenv
 

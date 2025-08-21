@@ -41,9 +41,9 @@ def fibonacci(n: int) -> list[int]:
 
   return fibs
 
-blp = Blueprint("fibs", __name__, description="fibonacci operations")
+fibs = Blueprint("fibs", __name__, description="fibonacci operations")
 
-@blp.route("/fibs/<int:seq_no>")
+@fibs.route("/fibs/<int:seq_no>")
 class Fibonacci(MethodView):
   def get(self, seq_no):
     try:
